@@ -52,7 +52,7 @@ var texts = [
   "┃ ┃ ┣ Tea",
   "┃ ┃ ┣ Juice",
   "┃ ┃ ┣ Beer",
-  "┃ ┃ ┣ Wine",
+  "┃ ┃ ┗ Wine",
   "┃ ┃ ",
   "┃ ┗ Kitchen:",
   "┃ ㅤ  ┣ Toaster",
