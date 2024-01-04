@@ -41,6 +41,8 @@ span {
   max-width: 1284px;
   margin: 20px auto;
   border: 3px solid rgb(0, 0, 0);
+  position: sticky;
+  top: 20px;
 }
 
 .navbar a {
@@ -59,10 +61,6 @@ span {
   background-color: #ffffff;
   color: black;
   text-shadow: 0 0 0px #ffffff;
-}
-
-hr {
- color: #333;
 }
 
 @media only screen and (max-width: 1250px) {
