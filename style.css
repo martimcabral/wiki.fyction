@@ -1,37 +1,37 @@
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-    background-image: url(imgs/background_image.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family:'Trebuchet MS', 'Arial';
+  background-image: url(imgs/background_image.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Trebuchet MS", "Arial";
 }
 
 h1 {
-    margin: 0px 0px;
-    color: white;
-    font-size: 64px;
-    font-weight: bold;
+  margin: 0px 0px;
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
 }
 
 p {
-    line-height: 20px;
-    margin: 0px 0px;
-    color: white;
-    font-size: 20px;
+  line-height: 20px;
+  margin: 0px 0px;
+  color: white;
+  font-size: 20px;
 }
 
 span {
-    margin: 0px 0px;
-    color: white;
-    font-size: 20px;
+  margin: 0px 0px;
+  color: white;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 1250px) {
-    p {
-      margin: 0 50px;
-    }
+  p {
+    margin: 0 50px;
+  }
 }

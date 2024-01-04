@@ -14,9 +14,23 @@ var texts = [
   "┃ ┗ Distillation Tower",
   "┃",
   "┣ Energy",
-  "┃ ┗ None",
+  "┃ ┣ Renewable Energy",
+  "┃ ┃ ┣ Biomass",
+  "┃ ┃ ┣ Geothermal",
+  "┃ ┃ ┣ Hydropower",
+  "┃ ┃ ┣ Solar",
+  "┃ ┃ ┗ Wind",
+  "┃ ┗ Non-Renewable Energy",
+  "┃ ㅤ  ┣ Coal",
+  "┃ ㅤ  ┣ Gas",
+  "┃ ㅤ  ┣ Nuclear",
+  "┃ ㅤ  ┗ Oil",
   "┃",
   "┣ Farming",
+  "┃ ┣ Animals",
+  "┃ ┣ Crops",
+  "┃ ┣ Trees",
+  "┃ ┣ Fishing",
   "┃ ┗ Winery",
   "┃",
   "┣ Cooking",
@@ -25,11 +39,11 @@ var texts = [
   "┣ Entities",
   "┃ ┗ None",
   "┃",
-  "┃ Resources",
+  "┣ Resources",
   "┃ ┣ Deposits",
   "┃ ┗ Oil",
   "┃",
-  "┃ Smelting",
+  "┣ Smelting",
   "┃ ┗ None",
   "┃",
   "┣ Magic",
@@ -40,9 +54,8 @@ var texts = [
   "ㅤ┣ Spawner Upgrades",
   "ㅤ┗ Pentagram",
 ];
-var targetElement = document.getElementById("targetElement");
+var nav = document.getElementById("nav");
 
-// Using innerHTML to insert multiple texts
 texts.forEach(function (text) {
-  targetElement.innerHTML += "<p>" + text + "</p>";
+  nav.innerHTML += "<p>" + text + "</p>";
 });
