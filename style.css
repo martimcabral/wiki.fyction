@@ -13,9 +13,10 @@ body {
 h1 {
   margin: 0px 0px;
   color: white;
-  font-size: 64px;
-  font-weight: bold;
+  font-size: 100px;
+  font-weight: 900;
   text-align: center;
+  text-shadow: 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000;
 }
 
 p {
@@ -35,7 +36,11 @@ span {
   overflow: hidden;
   background-color: #333;
   border-radius: 50px;
-  margin: 20px;
+  display: flex;
+  justify-content: center;
+  max-width: 988px;
+  margin: 20px auto;
+  border: 3px solid rgb(0, 0, 0);
 }
 
 .navbar a {
@@ -46,11 +51,13 @@ span {
   padding: 16px 16px;
   text-decoration: none;
   font-weight: bold;
+  text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
 }
 
 .navbar a:hover {
   background-color: #ffffff;
   color: black;
+  text-shadow: 0 0 0px #ffffff;
 }
 
 @media only screen and (max-width: 1250px) {
