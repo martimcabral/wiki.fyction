@@ -25,7 +25,7 @@ p {
   margin: 0px 0px;
   color: white;
   font-size: 24px;
-  margin: 0% 0% 0% 16%;
+  margin: 0% 0% 0% 17%;
 }
 
 span {
@@ -40,7 +40,7 @@ span {
   border-radius: 50px;
   display: flex;
   justify-content: center;
-  max-width: 1284px;
+  max-width: 1234px;
   margin: 20px auto;
   border: 3px solid rgb(0, 0, 0);
   position: sticky;
