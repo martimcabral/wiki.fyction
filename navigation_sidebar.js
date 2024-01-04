@@ -1,0 +1,48 @@
+var texts = [
+  "┃",
+  "┣ Biomes",
+  "┃ ┣ Cork Forest",
+  "┃ ┗ Teste",
+  "┃",
+  "┣ Structures",
+  "┃ ┗ Wine Trader House",
+  "┃",
+  "┣ Automation",
+  "┃ ┣ Ore Extractor",
+  "┃ ┣ Gas Extractor",
+  "┃ ┣ Fluid Extractor",
+  "┃ ┗ Distillation Tower",
+  "┃",
+  "┣ Energy",
+  "┃ ┗ None",
+  "┃",
+  "┣ Farming",
+  "┃ ┗ Winery",
+  "┃",
+  "┣ Cooking",
+  "┃ ┗ None",
+  "┃",
+  "┣ Entities",
+  "┃ ┗ None",
+  "┃",
+  "┃ Resources",
+  "┃ ┣ Deposits",
+  "┃ ┗ Oil",
+  "┃",
+  "┃ Smelting",
+  "┃ ┗ None",
+  "┃",
+  "┣ Magic",
+  "┃ ┗ None",
+  "┃",
+  "┗ Wizardry",
+  "ㅤ┣ Knowledge Book",
+  "ㅤ┣ Spawner Upgrades",
+  "ㅤ┗ Pentagram",
+];
+var targetElement = document.getElementById("targetElement");
+
+// Using innerHTML to insert multiple texts
+texts.forEach(function (text) {
+  targetElement.innerHTML += "<p>" + text + "</p>";
+});
