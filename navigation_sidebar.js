@@ -1,4 +1,6 @@
 var texts = [
+  "All Content:",
+  "ㅤ",
   "┏ Biomes:",
   "┃ ┗ Cork Forest",
   "┃",

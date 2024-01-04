@@ -15,6 +15,7 @@ h1 {
   color: white;
   font-size: 64px;
   font-weight: bold;
+  text-align: center;
 }
 
 p {
@@ -34,6 +35,7 @@ span {
   overflow: hidden;
   background-color: #333;
   border-radius: 50px;
+  margin: 20px;
 }
 
 .navbar a {
