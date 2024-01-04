@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(imgs/background_image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0px 0px;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Roboto', 'Arial';
+}
+
+p {
+    line-height: 20px;
+    margin: 0px 0px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', 'Arial';
+}
+
+span {
+    margin: 0px 0px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', 'Arial';
+}
+
+@media only screen and (max-width: 1250px) {
+    p {
+      margin: 0 50px;
+    }
+}
