@@ -1,6 +1,5 @@
 var texts = [
-  "┃",
-  "┣ Biomes:",
+  "┏ Biomes:",
   "┃ ┗ Cork Forest",
   "┃",
   "┣ Structures:",
