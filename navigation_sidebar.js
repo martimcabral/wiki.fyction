@@ -27,7 +27,7 @@ var texts = [
   "┃ ㅤ  ┣ Nuclear",
   "┃ ㅤ  ┗ Fuel",
   "┃",
-  "┣ Alimentation:",
+  "┣ Nutricion:",
   "┃ ┣ Farming:",
   "┃ ┃ ┣ Animals",
   "┃ ┃ ┣ Crops",
