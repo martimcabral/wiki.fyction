@@ -34,6 +34,17 @@ span {
   font-size: 20px;
 }
 
+.infotitle {
+  padding: 25px;
+  text-align: left;
+  font-size: 48px;
+}
+.infotext {
+  padding: 0px 20px;
+  text-align: justify;
+  font-size: 24px;
+}
+
 table {
   border-collapse: collapse;
   height: auto;
@@ -62,8 +73,9 @@ table, th, td {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-direction: column;
   margin-left: 10px;
-  height: 1250px;
+  height: 1750px;
   width: 825px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
