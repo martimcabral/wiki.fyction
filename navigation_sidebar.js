@@ -16,7 +16,7 @@ var texts = [
   "┃ ┣ Fluid Extractor",
   "┃ ┗ Distillation Tower",
   "┃ㅤ ┣ How to Setup",
-  "┃ㅤ ┗ Temperatures",
+  "┃ㅤ ┗ Temperatures & Outputs",
   "┃",
   "┣ Resources:",
   "┃ ┃",
