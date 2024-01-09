@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  cursor: url(imgs/netherite_pickaxe.png), auto;
   background-image: url(imgs/background_image.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -98,6 +99,7 @@ table, th, td {
 }
 
 .navbar a {
+  cursor: url(imgs/diamond_pickaxe.png), auto;
   float: left;
   display: block;
   color: #f2f2f2;
