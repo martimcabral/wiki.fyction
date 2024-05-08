@@ -1,9 +1,14 @@
+*:active {
+  cursor: url(imgs/diamond_pickaxe.png), auto;
+}
+
 html {
   overflow-x: hidden;
 }
 
 body {
   cursor: url(imgs/netherite_pickaxe.png), auto;
+  min-height: 100vh;
   background-image: url(imgs/background_image.png);
   background-repeat: repeat;
   background-attachment: fixed;
@@ -139,19 +144,29 @@ table, th, td {
 }
 
 .center_button {
+  cursor: url(imgs/netherite_pickaxe.png), auto;
   margin: 0 auto;
+  font-size:40px;
+  padding: 5px 10px;
   align-items: center;
   justify-content: center;
   text-align: center;
   text-align: center;
+  background-color: rgb(26, 24, 24);
   text-decoration:none;
   margin: 0;
   position: absolute;
   left: 47%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  height: 200px;
   position: relative;
+  color:white; 
+  border-radius:10px; 
+  text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+}
+
+.center_button:hover {
+  cursor: url(imgs/diamond_pickaxe.png), auto;
 }
 
 @media only screen and (max-width: 1250px) {
