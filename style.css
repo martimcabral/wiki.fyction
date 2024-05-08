@@ -75,7 +75,7 @@ table, th, td {
   align-items: flex-start;
   flex-direction: column;
   margin-left: 10px;
-  height: 4000px;
+  height: 5500px;
   width: 825px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
@@ -136,6 +136,22 @@ table, th, td {
   text-align: center;
   font-size: 40px;
   text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+}
+
+.center_button {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  text-decoration:none;
+  margin: 0;
+  position: absolute;
+  left: 47%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 200px;
+  position: relative;
 }
 
 @media only screen and (max-width: 1250px) {
