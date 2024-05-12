@@ -18,28 +18,27 @@ body {
 }
 
 #background_index {
-  background-image: url(imgs/index_background.png);
+  background-image: url(imgs/backgrounds/index_background.png);
 }
 
 #background_automation {
-  background-image: url(imgs/automation_background.png);
+  background-image: url(imgs/backgrounds/automation_background.png);
 }
 
 #background_exploration {
-  background-image: url(imgs/exploration_background.png);
+  background-image: url(imgs/backgrounds/exploration_background.png);
 }
 
 #background_smelting {
-  background-image: url(imgs/smelting_background.png);
+  background-image: url(imgs/backgrounds/smelting_background.png);
 }
 
 #background_wizardry {
-  background-image: url(imgs/wizardry_background.png);
+  background-image: url(imgs/backgrounds/wizardry_background.png);
 }
 
 .img {
-  width: 1000px;
-  height: 600px;
+  width: 80%;
   border-radius: 25px;
   border: 2px solid white;
 }
