@@ -9,7 +9,6 @@ html {
 body {
   cursor: url(imgs/netherite_pickaxe.png), auto;
   min-height: 100vh;
-  background-image: url(imgs/background_image.png);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 100px 100px;
@@ -18,16 +17,38 @@ body {
   color: rgb(228, 228, 228)
 }
 
+#background_index {
+  background-image: url(imgs/index_background.png);
+}
+
+#background_automation {
+  background-image: url(imgs/automation_background.png);
+}
+
+#background_exploration {
+  background-image: url(imgs/exploration_background.png);
+}
+
+#background_smelting {
+  background-image: url(imgs/smelting_background.png);
+}
+
+#background_wizardry {
+  background-image: url(imgs/wizardry_background.png);
+}
+
 .img {
   width: 1000px;
-  height:600px;
+  height: 600px;
   border-radius: 25px;
+  border: 2px solid white;
 }
 
 .craft_img {
   width: 570px;
-  height: 320px;
+  height: 290px;
   border-radius: 15px;
+  border: 2px solid white;
 }
 
 h1 {
@@ -82,35 +103,25 @@ table {
   margin: 20px 20px;
 }
 
-/* Optional border for better visualization 
-table, th, td {
-  border: 4px solid black;
-}*/
-
 .square {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-left: 10px;
-  height: 5800px;
   width: 1100px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   border: 3px solid rgb(255, 255, 255);
   z-index: 0;
+
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #111;
   border-radius: 50px;
   display: flex;
   justify-content: center;
-  max-width: 880px;
+  max-width: 1059px;
   margin: 20px auto;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid rgb(255, 255, 255);
   position: sticky;
   top: 20px;
   z-index: 999;
@@ -130,6 +141,7 @@ table, th, td {
 }
 
 .navbar a:hover {
+  transform: scale(1.1);
   background-color: #ffffff;
   color: black;
   text-shadow: 0 0 0px #ffffff;
