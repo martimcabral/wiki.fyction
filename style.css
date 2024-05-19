@@ -21,6 +21,10 @@ body {
   background-image: url(imgs/backgrounds/index_background.png);
 }
 
+#background_not_found {
+  background-image: url(imgs/backgrounds/not_found_background.png);
+}
+
 #background_automation {
   background-image: url(imgs/backgrounds/automation_background.png);
 }
